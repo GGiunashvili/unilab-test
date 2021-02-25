@@ -2,6 +2,18 @@ a {
   text-decoration: none;
 }
 
+.container-size {
+  max-width: 1160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .container {
   max-width: 1920px;
   display: -webkit-box;
@@ -302,6 +314,214 @@ a {
   display: none;
 }
 
+.trading-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.trading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.trading__h1 {
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.trading__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  max-width: 328px;
+}
+
+.trading__box__img {
+  max-width: 328px;
+}
+
+.trading__box__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 180px;
+  max-width: 280px;
+  background-color: white;
+}
+
+.trading__box__div__title {
+  color: black;
+  font-size: 16px;
+}
+
+.trading__box__div__p {
+  color: #a6adb4;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.trading__box__div__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trading__box__div__date__p {
+  margin-left: 10px;
+  color: #a6adb4;
+  font-size: 13px;
+}
+
+.trading__happening-now {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.trading__happening-now__first__div {
+  width: 760px;
+  background-image: url(../image/Image-1.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 431px;
+  margin-right: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.trading__happening-now__first__div__p {
+  color: white;
+  font-size: 24px;
+  margin-left: 40px;
+  padding-top: 40px;
+}
+
+.trading__happening-now__first__div__copy {
+  margin-left: 40px;
+  padding-bottom: 40px;
+}
+
+.trading__happening-now__first__div__copy__title {
+  color: white;
+  font-size: 24px;
+}
+
+.trading__happening-now__first__div__copy__p {
+  color: white;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.trading__happening-now__first__div__copy__date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trading__happening-now__first__div__copy__date__p {
+  color: #cbd0d3;
+  font-size: 13px;
+  margin-left: 10px;
+}
+
+.trading__happening-now__first__div-second {
+  margin-top: 40px;
+  background-image: url(../image/Image.png);
+}
+
+.trading__happening-now__second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.trading__happening-now__second__div__img {
+  width: 360px;
+}
+
+.trading__happening-now__second__div__box__p {
+  color: black;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.heading-title-arrow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.heading-title-arrow .home__second-component__box__arrow-div {
+  margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 1440px) {
   .home__first-component__img {
     background-size: cover;
@@ -309,6 +529,24 @@ a {
 }
 
 @media only screen and (max-width: 768px) {
+  .trading__happening-now__secong__div__img {
+    max-width: 280px;
+  }
+  .trading {
+    max-width: 608px;
+  }
+  .trading__box {
+    max-width: 280px;
+  }
+  .trading__box__img {
+    max-width: 280px;
+  }
+  .trading__box__div {
+    width: 204px;
+  }
+  .trading__box-mob-none {
+    display: none;
+  }
   .travel-second {
     margin-top: unset;
   }
@@ -339,11 +577,79 @@ a {
     height: 315px;
   }
   .home__second-component__box {
-    width: 646px;
+    width: 604px;
+  }
+  .trading__happening-now {
+    display: unset;
+  }
+  .trading__happening-now__first__div {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 40px;
+  }
+  .trading__happening-now__second {
+    -webkit-box-orient: unset;
+    -webkit-box-direction: unset;
+        -ms-flex-direction: unset;
+            flex-direction: unset;
+  }
+  .trading__happening-now__second__div-mob-none {
+    display: none;
   }
 }
 
 @media only screen and (max-width: 575px) {
+  .trading__happening-now__first__div__copy__p {
+    color: white;
+    font-size: 13px;
+  }
+  .trading__happening-now__first__div__p {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  .trading__happening-now__first__div__copy {
+    padding-bottom: 20px;
+  }
+  .trading__happening-now__secong__div__img {
+    max-width: 100%;
+  }
+  .trading {
+    max-width: 327px;
+  }
+  .trading__happening-now__first__div {
+    height: 187px;
+  }
+  .trading__box__img {
+    max-width: 327px;
+  }
+  .trading__box {
+    max-width: 327px;
+  }
+  .trading__box__div {
+    width: 327px;
+  }
+  .trading-main {
+    display: unset;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .trading__happening-now__second {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
   .travel-second {
     margin-top: 41px;
   }
