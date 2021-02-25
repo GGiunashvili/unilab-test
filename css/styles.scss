@@ -368,12 +368,68 @@ a {
     margin-bottom: 40px;
   }
 }
+
+.footer {
+  background: #a6adb4;
+  &__box {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &__first {
+      display: flex;
+      justify-content: space-between;
+      width: 382px;
+      height: 85px;
+      &__div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        &__p {
+          color: #cbd0d3;
+          font-size: 13px;
+        }
+      }
+    }
+    &__media {
+      width: 160px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+.footer-box__lst-components {
+  display: flex;
+  width: 400px;
+  justify-content: inherit;
+}
+
 @media only screen and (max-width: 1440px) {
   .home__first-component__img {
     background-size: cover;
   }
 }
 @media only screen and (max-width: 768px) {
+  .footer__box {
+    display: unset;
+    margin-top: 55px;
+  }
+  .footer-box__lst-components {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .footer__box__first {
+    width: 100%;
+  }
+  .container-size {
+    width: 608px;
+  }
   .trading__happening-now__secong__div__img {
     max-width: 280px;
   }
@@ -434,6 +490,33 @@ a {
   }
 }
 @media only screen and (max-width: 575px) {
+  .footer__box__media {
+    margin-top: 40px;
+  }
+  .footer__box__first__div {
+    width: 50%;
+    text-align: center;
+  }
+  .footer__box__first {
+    flex-wrap: wrap;
+    background: #a6adb4;
+    height: 170px;
+    padding-top: 57px;
+    position: absolute;
+    bottom: 0;
+  }
+  .container-size {
+    width: unset;
+  }
+  .footer__box__first {
+    justify-content: space-evenly;
+  }
+  .footer {
+    display: none;
+  }
+  .footer__box__first__div__p-logo {
+    display: none;
+  }
   .trading__happening-now__first__div__copy__p {
     color: white;
     font-size: 13px;
